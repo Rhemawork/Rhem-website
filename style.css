@@ -6,7 +6,7 @@ body {
 }
 
 
-.header {
+#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .nav-left, .nav-right {
   display: flex;
-  gap: 20px;
+  gap: 100px;
   align-items: center;
 }
 
@@ -44,7 +44,7 @@ body {
 .logo-text {
   font-size: 20px;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 
@@ -53,14 +53,19 @@ body {
   padding-top: 80px;
   padding-bottom: 70px;
 }
-
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 #email {
   padding: 10px;
   width: 200px;
 }
 
-.btn-pill {
-  padding: 10px 20px;
+.tombolpill {
+  padding: 20px 20px;
   background: transparent; 
   border: 1px solid #1f1d1e; 
   font-weight: 600;
@@ -68,6 +73,31 @@ body {
   cursor: pointer;
 }
 
+.all-container {
+  background-color: #eaedea;
+  border-radius: 40px; 
+  padding: 50px;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.all-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  width: 30%;
+  background-color: #2a2a2a;
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
 
 #fasilitas {
   display: flex;
@@ -81,18 +111,16 @@ body {
   box-sizing: border-box;
 }
 
-.fasilitas {
-  flex: 1;                      
-  background-color: #2a2a2a;    
-  color: white;                 
-  padding: 25px;                
-  border-radius: 20px;          
+.fasilitas-card {
+  width: 30%;
+  background-color: #2a2a2a;
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
   box-sizing: border-box;
-  text-align: center;
-  display: flex;
-  flex-direction: column;      
-  align-items: center;
+  overflow-wrap: break-word;
 }
+
 
 .fasilitas h2 {
   font-size: 18px;
@@ -112,6 +140,11 @@ body {
 }
 
 
+
+
+
+
+
 #video-section {
   text-align: center;
   padding: 40px 20px;
@@ -125,43 +158,6 @@ body {
   border: none;
   display: block;
   margin: 0 auto;       
-}
-
-
-.classes-container {
-  background-color: #eaedea;
-  border-radius: 40px; 
-  padding: 50px;
-  box-sizing: border-box;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.cards-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.class-card {
-  width: 30%;
-  background-color: #2a2a2a;
-  color: white;
-  padding: 25px;
-  border-radius: 20px;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-}
-
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: #ddd;
-  margin-top: 40px;
 }
 
 
@@ -188,9 +184,5 @@ footer {
     width: 100%; 
   }
 
-  footer {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
+
 }
