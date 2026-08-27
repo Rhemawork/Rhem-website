@@ -7,11 +7,11 @@
 
 <body>
 
-<header class="header">
+<header id="header">
   <nav class="nav-left">
     <a href="#fasilitas" class="nav-link">Fasilitas</a>
   </nav>
-  <a href="#" class="logo-container">
+  <a href="#home" class="logo-container">
     <img src="logo.png" alt="Logo Unitomo">
     <span class="logo-text">UNITOMO</span>
   </a>
@@ -21,7 +21,7 @@
 </header>
 
 
-<section id="home">
+<div id="home">
 
   <h2>
     Dapatkan informasi Program Studi, Beasiswa, dan Biaya Kuliah Terbaru langsung!
@@ -37,21 +37,20 @@
       required
     >
 
-    <input id="submit" class="btn-pill" type="submit" value="KIRIM BROSUR">
+    <input id="submit" class="tombolpill" type="submit" value="KIRIM BROSUR">
 
   </form>
 
-</section>
+</div>
 
 
-<section id="fakultas">
+<div id="fakultas">
   
-  <div class="classes-container"> 
+  <div class="all-container"> 
 
     
-    <div class="cards-wrapper"> 
+    <div class="all-wrapper"> 
 
-      
       <div class="class-card"> 
         <h3>FAKULTAS EKONOMI DAN BISNIS</h3>
         <p>S1 Manajemen</p>
@@ -77,11 +76,16 @@
     </div>
 
   </div> 
-</section>
+</div>
 
-<section id="fasilitas">
+<div id="fasilitas">
 
-  <div class="fasilitas">
+  <div class="all-container"> 
+
+    
+   <div class="all-wrapper"> 
+
+  <div class="fasilitas-card">
     <div class="icon">🖥️</div>
     <h2>Laboratorium Komputer</h2>
     <p>
@@ -90,7 +94,7 @@
     </p>
   </div>
 
-  <div class="fasilitas">
+  <div class="fasilitas-card">
     <div class="icon">📖</div>
     <h2>Perpustakaan</h2>
     <p>
@@ -99,7 +103,7 @@
     </p>
   </div>
 
-  <div class="fasilitas">
+  <div class="fasilitas-card">
     <div class="icon">📶</div>
     <h2>Wifi / Internet</h2>
     <p>
@@ -108,10 +112,11 @@
     </p>
   </div>
 
-</section>
+</div>
+</div>
+</div>
 
-
-<section id="video-section">
+<div id="video-section">
   
   <div class="video-card-container">
     <iframe 
@@ -125,9 +130,6 @@
   </div>
 </section>
 
-<footer>
-  Copyright 2026, Universitas Dr. Soetomo
-</footer>
 
 </body>
 </html>
