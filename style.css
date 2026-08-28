@@ -110,13 +110,13 @@ body {
 }
 
 
-.fasilitas h2 {
+.fasilitas-card h2 {
   font-size: 18px;
   margin: 15px 0 10px 0;
   color: #ffffff;
 }
 
-.fasilitas p {
+.fasilitas-card p {
   font-size: 13px;
   color: #ccc;
   line-height: 1.5;
