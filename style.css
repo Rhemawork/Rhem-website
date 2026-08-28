@@ -140,16 +140,6 @@ body {
 }
 
 
-
-
-
-
-
-#video-section {
-  text-align: center;
-  padding: 40px 20px;
-}
-
 #video-section iframe {
   width: 100%;
   max-width: 500px;     
